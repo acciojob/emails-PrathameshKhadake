@@ -42,7 +42,7 @@ public class Gmail extends Email {
             Trash.add(Inbox.get(0));
             Inbox.remove(0);
         }
-        Inbox.add(new Mail(date, sender,message));
+        Inbox.add(new Mail(date, sender, message));
     }
 
     public void deleteMail(String message){
